@@ -1,0 +1,107 @@
+body{
+	/*background-color: rgba(105,117,141,1);*/
+}
+
+.content{
+	max-width: 990px;
+	margin: 0px auto;
+}
+
+.content-header{
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: top center;
+	/*background-position: 50% auto;*/
+	background-repeat: no-repeat;
+	min-height:  300px;
+	/*margin: 0px 0px 5px 0px;*/
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+
+
+
+}
+
+.header-top{
+	padding-left: 50px;
+	padding-right: 20px;
+
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fdf2c4;
+	text-shadow: 0px 0px 5px #69758d;
+
+	background-color: rgba(0,0,0,0.2);
+	/*background-color: rgba(105,117,141,0.2);*/
+	/*opacity: */
+	
+	min-height: 65px;
+	border-bottom: 1px solid #d1d2da;
+
+	/*position: fixed;*/
+	position: relative;
+	top: 0px;
+	left: 0px;
+	
+}
+
+.header-top_town-name{
+	font-size: 60px;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-shadow: 3px 3px 10px #69758d;
+	letter-spacing: 30px;
+	float: left;
+	/*padding-left: 10px;
+	padding-right: 20px;*/
+}
+
+.header-top__site-name{
+	font-size: 15px;
+	font-weight: 700;
+	text-align: right;
+	/*padding-left: 10px;*/
+	padding-top: 7px;
+	padding-bottom: 7px;
+	
+}
+
+
+.header-left{
+	max-width: 221px;
+	/*max-width: 321px;
+	padding: 10px 0;*/
+	background-color: #7c8aa4;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	line-height: 20px;
+	float: left;
+	
+
+
+}
+.main-menu{
+	align-content: center;
+	width: 215px;
+	padding: 5px;
+}
+
+.main-menu li{
+	border-bottom: 1px solid #d1d2da;
+	padding: 0px 0px 0px 3px;
+}
+
+.header-gerb{
+	
+	
+}
+
+.header-right{
+	font-size: 30px;
+	align-items: left;
+}
